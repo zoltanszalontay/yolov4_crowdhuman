@@ -36,19 +36,19 @@ get_file()
 
 echo "** Download dataset files"
 # CrowdHuman_train01.zip
-get_file https://drive.google.com/u/0/open?id=134QOvaatwKdy0iIeNqA_p-xkAhkV4F8Y
+# get_file https://drive.google.com/u/0/open?id=134QOvaatwKdy0iIeNqA_p-xkAhkV4F8Y
 # CrowdHuman_train02.zip
-get_file https://drive.google.com/u/0/open?id=17evzPh7gc1JBNvnW1ENXLy5Kr4Q_Nnla
+# get_file https://drive.google.com/u/0/open?id=17evzPh7gc1JBNvnW1ENXLy5Kr4Q_Nnla
 # CrowdHuman_train03.zip
-get_file https://drive.google.com/u/0/open?id=1tdp0UCgxrqy1B6p8LkR-Iy0aIJ8l4fJW
+# get_file https://drive.google.com/u/0/open?id=1tdp0UCgxrqy1B6p8LkR-Iy0aIJ8l4fJW
 # CrowdHuman_val.zip
-get_file https://drive.google.com/u/0/open?id=18jFI789CoHTppQ7vmRSFEdnGaSQZ4YzO
+# get_file https://drive.google.com/u/0/open?id=18jFI789CoHTppQ7vmRSFEdnGaSQZ4YzO
 # test data is not needed...
 # get_file https://drive.google.com/u/0/open?id=1tQG3E_RrRI4wIGskorLTmDiWHH2okVvk
 # annotation_train.odgt
-get_file https://drive.google.com/u/0/open?id=1UUTea5mYqvlUObsC1Z8CFldHJAtLtMX3
+# get_file https://drive.google.com/u/0/open?id=1UUTea5mYqvlUObsC1Z8CFldHJAtLtMX3
 # annotation_val.odgt
-get_file https://drive.google.com/u/0/open?id=10WIRwu8ju8GRLuCkZ_vT6hnNxs5ptwoL
+# get_file https://drive.google.com/u/0/open?id=10WIRwu8ju8GRLuCkZ_vT6hnNxs5ptwoL
 
 # unzip image files (ignore CrowdHuman_test.zip for now)
 echo "** Unzip dataset files"
