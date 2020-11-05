@@ -114,11 +114,14 @@ def rm_txts(output_dir):
 def main():
     global INPUT_WIDTH, INPUT_HEIGHT
 
+    print('gen_txts.py')
     parser = ArgumentParser()
     parser.add_argument('dim', help='input width and height, e.g. 608x608')
     args = parser.parse_args()
 
     dim_split = args.dim.split('x')
+    print("dim: {}".format(args.dim))
+    print("dim_split: {}".format(dim_split))
     if len(dim_split) != 2:
         raise SystemExit('ERROR: bad spec of input dim (%s)' % args.dim)
     INPUT_WIDTH, INPUT_HEIGHT = int(dim_split[0]), int(dim_split[1])
