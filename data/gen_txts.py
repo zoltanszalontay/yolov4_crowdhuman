@@ -121,7 +121,7 @@ def main():
 
     dim_split = args.dim.split('x')
     print("dim: {}".format(args.dim))
-    print("dim_split: {}".format(dim_split))
+    print("dim_split: {}, len(dim_split): {}".format(dim_split, len(dim_split)))
     if len(dim_split) != 2:
         raise SystemExit('ERROR: bad spec of input dim (%s)' % args.dim)
     INPUT_WIDTH, INPUT_HEIGHT = int(dim_split[0]), int(dim_split[1])
